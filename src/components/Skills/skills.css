@@ -89,3 +89,20 @@
     background-color: #D4AF37;
     border-radius: 2px;
 }
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+
+.skillBar:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+    border: 1px solid #D4AF37;
+    cursor: default;
+}
+

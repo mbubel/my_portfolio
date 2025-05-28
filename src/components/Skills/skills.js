@@ -8,30 +8,31 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className="skillTitle">What I do</span>
-            <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and Illustrator.</span>
+            <span className="skillDesc">I’m a skilled and passionate web designer with experience creating visually appealing, user-friendly websites. I specialize in WordPress design and site creation, and I work confidently with modern front-end technologies like HTML, CSS, JavaScript, and React. I also have experience with PHP and deploying applications using AWS services. I take pride in clean, responsive design and delivering polished, functional websites.</span>
             <div className="skillBars">
-                <div className="skillBar">
-                    <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>UI/UX Design</h2>
-                        <p>This is a demo text, you can write your own content here.</p>
-                    </div>
-                </div>
-                <div className="skillBar">
-                    <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>Website Design</h2>
-                        <p>This demo text can be changed while making the production ready website.</p>
-                    </div>
-                </div>
-                <div className="skillBar">
-                    <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>App Design</h2>
-                        <p>You can write text related to mobile app development.</p>
-                    </div>
-                </div>
-            </div>
+    <div className="skillBar">
+        <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+        <div className="skillBarText">
+            <h2>User Interface & Experience</h2>
+            <p>I focus on creating clean, intuitive user interfaces that prioritize usability and accessibility across all device types.</p>
+        </div>
+    </div>
+    <div className="skillBar">
+        <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+        <div className="skillBarText">
+            <h2>Responsive Web Development</h2>
+            <p>I design and build responsive, user-friendly websites using tools like WordPress, HTML, CSS, JavaScript, and React.</p>
+        </div>
+    </div>
+    <div className="skillBar">
+        <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+        <div className="skillBarText">
+            <h2>Modern Web Applications</h2>
+            <p>I have experience developing and deploying full-featured web apps using React, integrating APIs, and utilizing cloud services like AWS.</p>
+        </div>
+    </div>
+</div>
+
         </section>
     );
 }
