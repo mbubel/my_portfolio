@@ -11,7 +11,12 @@ const Works = () => {
     return (
         <section id='works'>
             <h2 className="worksTitle">My Portfolio</h2>
-            <span className="worksDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
+            <span className="worksDesc">These are the websites I worked on professionally while at my previous employer. Each was built using WordPress and hosted on WP Engine and AWS. I was responsible for both front-end and back-end development, using Elementor for flexible design and PHP for deeper customization — including custom plugins and theme modifications tailored to each project’s needs.</span>
+            <p className="portfolioNote">
+  Want to know more about how I worked on these? 
+  <span className="goldAccent"> Feel free to reach out below!</span>
+</p>
+
             <div className="worksImgs">
                 <img src={Portfolio1} alt="" className="worksImg" />
                 <img src={Portfolio2} alt="" className="worksImg" />
@@ -20,7 +25,6 @@ const Works = () => {
                 <img src={Portfolio5} alt="" className="worksImg" />
                 <img src={Portfolio6} alt="" className="worksImg" />
             </div>
-            <button className="workBtn">See More</button>
         </section>
     );
 }
