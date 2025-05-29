@@ -100,7 +100,6 @@
 }
 
 .skillBar:hover {
-    transform: translateY(-4px);
     box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
     border: 1px solid #D4AF37;
     cursor: default;

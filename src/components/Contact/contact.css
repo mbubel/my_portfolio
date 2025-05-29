@@ -89,3 +89,82 @@
     text-align: center;
     color: #ccc;
 }
+
+.resumeIcon {
+    transform: scale(1.25);
+}
+
+.githubIcon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.githubIcon:hover {
+    transform: scale(1.2);
+}
+
+.linkedInIcon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.linkedInIcon:hover {
+    transform: scale(1.2);
+}
+
+.resumeIcon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resumeIcon:hover {
+    transform: scale(1.55);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .iconBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .iconLabel {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  #contactPage {
+    padding-bottom: 150px; /* or more depending on your footer */
+  }
+
+
+  #contactWrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactPage {
+    max-width: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

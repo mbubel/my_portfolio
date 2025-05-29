@@ -79,8 +79,34 @@
     text-align: center;
 }
 
-
 .goldAccent {
     color: #D4AF37;
     font-weight: 500;
 }
+
+.worksImgs a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.worksImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    opacity: 0.4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.worksImgs a:hover .worksImg {
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+}
+
+.contactLink {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
