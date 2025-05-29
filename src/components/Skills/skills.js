@@ -7,7 +7,7 @@ import AppDesign from '../../assets/app-design.png';
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">What I do</span>
+            <span className="skillTitle">What I Do</span>
             <span className="skillDesc">I’m a skilled and passionate web designer with experience creating visually appealing, user-friendly websites. I specialize in WordPress design and site creation, and I work confidently with modern front-end technologies like HTML, CSS, JavaScript, and React. I also have experience with PHP and deploying applications using AWS services. I take pride in clean, responsive design and delivering polished, functional websites.</span>
             <div className="skillBars">
                 <div className="skillBar">
