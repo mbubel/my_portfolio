@@ -8,7 +8,7 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Hello,</span>
                 <span className="introText">I'm <span className="introName">Michael</span>. <br />React Developer</span>
-                <p className="introPara">I'm a skilled web designer with a strong <br />background in WordPress and a growing focus <br />on front-end development with React.</p>
+                <p className="introPara">I bring WordPress experience and a growing focus<br /> on React to create fast, modern web interfaces.</p>
             </div>
             <img src={bg} alt="Profile" className="bg" />
         </section>
