@@ -29,7 +29,9 @@
     max-width: 60rem;
 }
 
-.name, .email, .msg {
+.name,
+.email,
+.msg {
     font-size: medium;
     width: 100%;
     max-width: 40rem;
@@ -135,36 +137,36 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 1rem;
-  }
-  
-  .iconBlock {
+}
+
+.iconBlock {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .iconLabel {
+}
+
+.iconLabel {
     margin-top: 0.5rem;
     font-size: 0.9rem;
     color: #ccc;
-  }
-  
-  #contactPage {
-    padding-bottom: 150px; /* or more depending on your footer */
-  }
+}
+
+#contactPage {
+    padding-bottom: 150px;
+    /* or more depending on your footer */
+}
 
 
-  #contactWrapper {
+#contactWrapper {
     width: 100vw;
     display: flex;
     justify-content: center;
-  }
-  
-  .contactPage {
+}
+
+.contactPage {
     max-width: 60rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
+}

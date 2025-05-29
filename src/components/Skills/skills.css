@@ -61,10 +61,12 @@
     .skillBarText>p {
         font-size: 3vw;
     }
+
     .skillBarImg {
         height: 2.25rem;
         width: 2.25rem;
     }
+
     .skillBarText>h2 {
         font-size: 5vw;
     }
@@ -104,4 +106,3 @@
     border: 1px solid #D4AF37;
     cursor: default;
 }
-

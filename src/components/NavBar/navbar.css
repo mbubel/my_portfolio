@@ -27,11 +27,11 @@
 .desktopMenuListItem:hover {
     color: #AAAAAA;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #D4AF37    ;
+    border-bottom: 3px solid #D4AF37;
 }
 
 .desktopMenuBtn {
-    background: #D4AF37    ;
+    background: #D4AF37;
     color: black;
     border: none;
     display: flex;
@@ -51,7 +51,7 @@
 .active {
     color: #C5C5C5;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #D4AF37     ;
+    border-bottom: 3px solid #D4AF37;
 }
 
 .mobMenu {
@@ -68,7 +68,7 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
-    height:fit-content;
+    height: fit-content;
     min-width: 15rem;
     background: rgb(40, 40, 40);
     border-radius: 1rem;
@@ -85,9 +85,11 @@
     .mobMenu {
         display: flex;
     }
+
     .desktopMenu {
         display: none;
     }
+
     .desktopMenuBtn {
         display: none;
     }
@@ -95,13 +97,13 @@
 
 .desktopMenuListItem.active {
     border-bottom: 3px solid #D4AF37;
-  }
-  
-  #contact {
+}
+
+#contact {
     min-height: 92vh;
-  }
-  
-  .submitBtn {
+}
+
+.submitBtn {
     background: #D4AF37;
     color: black;
     font-weight: 600;
@@ -111,10 +113,24 @@
     padding: 0.75rem 3.5rem;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
-  }
-  
-  .submitBtn:hover {
+}
+
+.submitBtn:hover {
     background: #D4AF37;
     transform: scale(1.05);
-  }
-  
+}
+
+.active {
+    color: #C5C5C5;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #D4AF37;
+}
+
+
+@media (max-width: 768px) {
+
+    .mobMenu {
+        width: 70px;
+
+    }
+}
