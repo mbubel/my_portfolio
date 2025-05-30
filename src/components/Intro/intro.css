@@ -36,6 +36,12 @@
     color: #D4AF37;
 }
 
+.introTitle {
+    font-size: 45px;
+    display: block;
+    margin-top: -10px;
+}
+
 .introPara {
     font-size: medium;
     font-weight: 300;
@@ -76,7 +82,17 @@
     .bg {
         right: -20vw
     }
+
+    .introTitle {
+        line-height: 1.1;
+        margin: auto;
+    }
+
+    .introPara {
+        margin-top: 10px;
+    }
 }
+
 
 .logo {
     cursor: pointer;

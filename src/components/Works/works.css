@@ -1,6 +1,5 @@
 #works {
     margin: 0 auto;
-    /* min-height: calc(100vh - 4rem); */
     width: 100vw;
     max-width: 60rem;
     display: flex;
@@ -108,4 +107,35 @@
 .contactLink {
     cursor: pointer;
     display: inline-block;
+}
+
+    
+@media screen and (max-width:480px) {
+    .worksImg {
+        object-fit: cover;
+        height: 10rem;
+        margin: 0.5rem;
+        border-radius: 8px;
+        opacity: .8;
+    }
+
+    .introContent {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .introText,
+      .introPara {
+        text-align: center;
+        align-self: center;
+      }
+
+      .hello {
+        text-align: center;
+        align-self: center;
+        opacity: 0.8;
+      }
+      
 }
