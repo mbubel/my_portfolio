@@ -74,7 +74,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="iconBlock">
-              <a href="/MichaelBubelResume2025PDF.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/MichaelBubelResume.pdf" target="_blank" rel="noopener noreferrer">
                 <img src={resumeIcon} alt="Resume PDF" className="resumeIcon" />
                 <p className="iconLabel">Resume</p>
               </a>
