@@ -18,7 +18,7 @@
 }
 
 .skillDesc {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     max-width: 51rem;
     padding: 0 2rem;
@@ -40,6 +40,7 @@
 }
 
 .skillBarImg {
+    margin-top: 15px;
     object-fit: cover;
     height: 3rem;
     width: 3rem;
@@ -99,10 +100,4 @@
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
-}
-
-.skillBar:hover {
-    box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
-    border: 1px solid #D4AF37;
-    cursor: default;
 }

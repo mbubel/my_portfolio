@@ -12,7 +12,7 @@ const Works = () => {
   return (
     <section id='works'>
       <h2 className="worksTitle">My Portfolio</h2>
-      <span className="worksDesc">These are the websites I worked on professionally while at my previous employer. Each was built using WordPress and hosted on WP Engine and AWS. I was responsible for both front-end and back-end development, using Elementor for flexible design and PHP for deeper customization — including custom plugins and theme modifications tailored to each project’s needs.</span>
+      <span className="worksDesc">These are the websites I worked on professionally. Each site was built using WordPress and hosted on WPEngine and AWS. I was responsible for both front-end and back-end development, using Elementor for flexible design and PHP for deeper customization, including custom plugins and theme modifications tailored to each project’s needs.</span>
 
       <p className="portfolioNote">
         Want to know more about how I worked on these? {' '}
